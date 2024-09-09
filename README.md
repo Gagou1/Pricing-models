@@ -18,4 +18,6 @@ The Heston model is used in practice to correct the unrealistic hypothesis of co
 
 Then, the price of a (european) option with maturity $T$ and payoff $h(S_T)$ is computed as $P_t=\mathbb{E}[e^{-r(T-t)}h(S_T)]$
 
-# 
+# Volatility surface
+
+In this notebook we compute and plot the surface of implied volatility of the Black-Scholes Call prices with respect to the Heston Call prices
