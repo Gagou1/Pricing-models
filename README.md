@@ -1,9 +1,9 @@
 We simulate option prices using various stochastic models. The option prices are computed with a Monte-Carlo pricer. 
 
-**Black-Scholes model:** the stock prices $(S_t)$ are modelled by the following stochastic differential equation:
-\begin{equation}
+**Black-Scholes model:** the stock prices $(S_t)$ are modelled by the following stochastic differential equation (under risk neutral probability):
+```math
 dS_t= rS_tdt+\sigma dW_t
-\end{equation}
+```
 with $r,\sigma$ the constant rates and volatility and $W$ a Brownian motion
 
 **Heston model:** This model also describes the volatility as a stochastic diffusion process, with driving Brownian motion correlated with the Brownian motion driving the stock prices:
@@ -16,4 +16,6 @@ with $r,\sigma$ the constant rates and volatility and $W$ a Brownian motion
 
 The Heston model is used in practice to correct the unrealistic hypothesis of constant/deterministic volatility in the Black-Scholes model.
 
-Then, 
+Then, the price of a (european) option with maturity $T$ and payoff $h(S_T)$ is computed as $P_t=\mathbb{E}[e^{-r(T-t)}h(S_T)]$
+
+# 
