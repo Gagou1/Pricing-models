@@ -10,7 +10,7 @@ with $r,\sigma$ the constant rates and volatility and $W$ a Brownian motion
 ```math
     \begin{cases}
       dS_t=rS_tdt+\sqrt{\nu_t}S_tdW^1_t\\
-      d\nu_t=\kappa(\nu_b-\nu_t)+\epsilon\sqrt{\nu_t}(\rho dW^1_t+\sqrt{1-\rho^2dW^2_t})\\
+      d\nu_t=\kappa(\nu_b-\nu_t)+\epsilon\sqrt{\nu_t}(\rho dW^1_t+\sqrt{1-\rho^2}dW^2_t)\\
     \end{cases}       
 ```
 
