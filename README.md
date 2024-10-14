@@ -21,3 +21,7 @@ Then, the price of a (european) option with maturity $T$ and payoff $h(S_T)$ is 
 # Volatility surface
 
 In this notebook we compute and plot the surface of implied volatility of the Black-Scholes Call prices with respect to the Heston Call prices
+
+# Heston prices
+
+In this notebook, we compute the prices surfaces of associated to the Heston model for the European call and some European barrier options. 
